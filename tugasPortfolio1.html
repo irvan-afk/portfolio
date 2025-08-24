@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Nama Anda</title>
+    <link rel="stylesheet" href="tugasPortfolio1.css">
+</head>
+<body>
+    <div class="background-anim">
+        <div class="shape" style="width:60px; height:60px; left:10%; animation-duration:12s;"></div>
+        <div class="shape square" style="width:50px; height:50px; left:40%; animation-duration:18s;"></div>
+        <div class="shape" style="width:80px; height:80px; left:70%; animation-duration:20s;"></div>
+        <div class="shape square" style="width:30px; height:30px; left:85%; animation-duration:10s;"></div>
+    </div>
+
+    <header class="header">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="responsif-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <nav class="navbar">
+            <a href="#about" class="nav-link">Tentang Saya</a>
+            <a href="#education" class="nav-link">Pendidikan & Pengalaman</a>
+            <a href="#skills" class="nav-link">Keterampilan</a>
+            <a href="#projects" class="nav-link">Proyek</a>
+            <a href="#contact" class="nav-link">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="about" class="section about-me">
+        <div class="container">
+            <div class="profile-card">
+                <img src="img/foto_irvan.png" alt="Foto Irvan Boss" class="profile-photo">
+                <h1 class="profile-name">Irvan Supriadi Situmorang</h1>
+                <p class="profile-description">
+                    Saya Irvan Supriadi Situmorang, seorang mahasiswa di Politeknik Negeri Bandung, Jurusan Teknik Informatika.
+                    Saya memiliki minat yang tinggi di dunia teknologi, terlebih lagi saya suka belajar tentang CyberSecurity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Riwayat Pendidikan</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SD HKBP PEARAJA TARUTUNG</h3>
+                        <p>2012-2018</p>
+                    </div>
+                    <div class="timeline-logo">
+                        <img src="img/logo_sekolah_hkbp.jpg" alt="Logo Polban">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SMP NEGERI 2 TARUTUNG</h3>
+                        <p>2018-2021</p>
+                    </div>
+                    <div class="timeline-logo">
+                        <img src="img/logo_sekolah_SMP2.jpg" alt="Logo Perusahaan">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SMA NEGERI 2 TARUTUNG</h3>
+                        <p>2021-2024</p>
+                        <p>Jurusan IPA</p>
+                    </div>
+                    <div class="timeline-logo">
+                        <img src="img/SMA_negeri_2jpg.jpg" alt="Logo Perusahaan">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>POLITEKNIK NEGERI BANDUNG</h3>
+                        <p>2024 - Sekarang</p>
+                        <p>Jurusan Teknik Informatika</p>
+                    </div>
+                    <div class="timeline-logo">
+                        <img src="img/logo_Polbanpng.png" alt="Logo Perusahaan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Daftar Keterampilan & Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-card">
+                    <img src="img/HTML.png" alt="HTML Logo">
+                    <p>HTML</p>
+                </li>
+                <li class="skill-card">
+                    <img src="img/CSS.png" alt="CSS Logo">
+                    <p>CSS</p>
+                </li>
+                <li class="skill-card">
+                    <img src="img/C.png" alt="C Logo">
+                    <p>C</p>
+                </li>
+                <li class="skill-card">
+                    <img src="img/python.jpg" alt="Python Logo">
+                    <p>Python</p>
+                </li>
+                <li class="skill-card">
+                    <img src="img/mariadb.png" alt="imgmaria">
+                    <p>mariadb</p>
+                </li>
+                <li class="skill-card">
+                    <img src="img/kali_lilnuxpng.png" alt="kalilinux">
+                    <p>Kali_linux</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Proyek & Portofolio</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="img/gameSpaceInvade.png" alt="Gambar Proyek gw" class="project-image">
+                    <h3>Space Invaders</h3>
+                    <p class="project-description">Space Invaders adalah game 2D bertema luar angkasa yang dibuat dalam bahasa C menggunakan library raylib 
+                        di mana pemain mengendalikan pesawat untuk melawan 
+                        gelombang musuh dan menghindari serangan</p>
+                    <a href="https://github.com/irvan-afk/GalaxyDefender" class="project-link" target="_blank">Lihat Proyek</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/escapetheroom.png" alt="Gambar Proyek 2" class="project-image">
+                    <h3>Escape The Room</h3>
+                    <p class="project-description">Escape the Room adalah permainan 2d sederhana yang dimainkan di command prompt/bash. yang dimana dalam game ini ada 
+                        banyak ruangan ruangan seperti labirin yang dimana tujuan dari permainanini adalah untuk mencari kunci pintu keluar dan menemukan pintu keluarnya
+                    </p>
+                    <a href="https://github.com/irvan-afk/EscapeTheRoom" class="project-link" target="_blank">Lihat Proyek</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:irvansitumorang7@gmail.com" class="contact-link">irvansitumorang7@gmail.com</a></p>
+                <p>GitHub: <a href="link-github-anda" class="contact-link" target="_blank">github.com</a></p>
+                <p>Whatsapp: <a href="https://wa.me/082272993673" class="contact-link" target="_blank">082272993673</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/irvann_stmrg/" class="contact-link" target="_blank">irvann_stmrg</a></p>                                
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Irvan Supriadi Situmorang</p>
+    </footer>
+
+</body>
+</html>
